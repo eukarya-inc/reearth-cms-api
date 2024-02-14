@@ -168,27 +168,27 @@ All URIs are relative to *http://localhost*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AssetsApi* | [**asset_delete**](docs/apis/tags/AssetsApi.md#asset_delete) | **delete** /assets/{assetId} | 
-*AssetsApi* | [**asset_get**](docs/apis/tags/AssetsApi.md#asset_get) | **get** /assets/{assetId} | 
-*AssetsCommentsApi* | [**asset_comment_create**](docs/apis/tags/AssetsCommentsApi.md#asset_comment_create) | **post** /assets/{assetId}/comments | 
-*AssetsCommentsApi* | [**asset_comment_delete**](docs/apis/tags/AssetsCommentsApi.md#asset_comment_delete) | **delete** /assets/{assetId}/comments/{commentId} | 
-*AssetsCommentsApi* | [**asset_comment_list**](docs/apis/tags/AssetsCommentsApi.md#asset_comment_list) | **get** /assets/{assetId}/comments | 
-*AssetsCommentsApi* | [**asset_comment_update**](docs/apis/tags/AssetsCommentsApi.md#asset_comment_update) | **patch** /assets/{assetId}/comments/{commentId} | Update AssetComment
-*AssetsProjectApi* | [**asset_create**](docs/apis/tags/AssetsProjectApi.md#asset_create) | **post** /projects/{projectId}/assets | Create an new asset.
-*AssetsProjectApi* | [**asset_filter**](docs/apis/tags/AssetsProjectApi.md#asset_filter) | **get** /projects/{projectId}/assets | Returns a list of assets.
-*ItemsApi* | [**item_create**](docs/apis/tags/ItemsApi.md#item_create) | **post** /models/{modelId}/items | create an item
-*ItemsApi* | [**item_delete**](docs/apis/tags/ItemsApi.md#item_delete) | **delete** /items/{itemId} | delete an item
-*ItemsApi* | [**item_filter**](docs/apis/tags/ItemsApi.md#item_filter) | **get** /models/{modelId}/items | Returns a list of items.
-*ItemsApi* | [**item_get**](docs/apis/tags/ItemsApi.md#item_get) | **get** /items/{itemId} | Returns an items.
-*ItemsApi* | [**item_update**](docs/apis/tags/ItemsApi.md#item_update) | **patch** /items/{itemId} | Update an item.
-*ItemsCommentsApi* | [**item_comment_create**](docs/apis/tags/ItemsCommentsApi.md#item_comment_create) | **post** /items/{itemId}/comments | 
-*ItemsCommentsApi* | [**item_comment_delete**](docs/apis/tags/ItemsCommentsApi.md#item_comment_delete) | **delete** /items/{itemId}/comments/{commentId} | 
-*ItemsCommentsApi* | [**item_comment_list**](docs/apis/tags/ItemsCommentsApi.md#item_comment_list) | **get** /items/{itemId}/comments | 
-*ItemsCommentsApi* | [**item_comment_update**](docs/apis/tags/ItemsCommentsApi.md#item_comment_update) | **patch** /items/{itemId}/comments/{commentId} | Update Item Comment
-*ItemsProjectApi* | [**item_create_with_project**](docs/apis/tags/ItemsProjectApi.md#item_create_with_project) | **post** /projects/{projectIdOrAlias}/models/{modelIdOrKey}/items | 
-*ItemsProjectApi* | [**item_filter_with_project**](docs/apis/tags/ItemsProjectApi.md#item_filter_with_project) | **get** /projects/{projectIdOrAlias}/models/{modelIdOrKey}/items | Returns a list of items.
-*ModelsApi* | [**model_get**](docs/apis/tags/ModelsApi.md#model_get) | **get** /models/{modelId} | Returns a model.
-*ModelsApi* | [**model_get_with_project**](docs/apis/tags/ModelsApi.md#model_get_with_project) | **get** /projects/{projectIdOrAlias}/models/{modelIdOrKey} | Returns a model.
+*AssetsApi* | [**asset_delete**](python/docs/apis/tags/AssetsApi.md#asset_delete) | **delete** /assets/{assetId} | 
+*AssetsApi* | [**asset_get**](python/docs/apis/tags/AssetsApi.md#asset_get) | **get** /assets/{assetId} | 
+*AssetsCommentsApi* | [**asset_comment_create**](python/docs/apis/tags/AssetsCommentsApi.md#asset_comment_create) | **post** /assets/{assetId}/comments | 
+*AssetsCommentsApi* | [**asset_comment_delete**](python/docs/apis/tags/AssetsCommentsApi.md#asset_comment_delete) | **delete** /assets/{assetId}/comments/{commentId} | 
+*AssetsCommentsApi* | [**asset_comment_list**](python/docs/apis/tags/AssetsCommentsApi.md#asset_comment_list) | **get** /assets/{assetId}/comments | 
+*AssetsCommentsApi* | [**asset_comment_update**](python/docs/apis/tags/AssetsCommentsApi.md#asset_comment_update) | **patch** /assets/{assetId}/comments/{commentId} | Update AssetComment
+*AssetsProjectApi* | [**asset_create**](python/docs/apis/tags/AssetsProjectApi.md#asset_create) | **post** /projects/{projectId}/assets | Create an new asset.
+*AssetsProjectApi* | [**asset_filter**](python/docs/apis/tags/AssetsProjectApi.md#asset_filter) | **get** /projects/{projectId}/assets | Returns a list of assets.
+*ItemsApi* | [**item_create**](python/docs/apis/tags/ItemsApi.md#item_create) | **post** /models/{modelId}/items | create an item
+*ItemsApi* | [**item_delete**](python/docs/apis/tags/ItemsApi.md#item_delete) | **delete** /items/{itemId} | delete an item
+*ItemsApi* | [**item_filter**](python/docs/apis/tags/ItemsApi.md#item_filter) | **get** /models/{modelId}/items | Returns a list of items.
+*ItemsApi* | [**item_get**](python/docs/apis/tags/ItemsApi.md#item_get) | **get** /items/{itemId} | Returns an items.
+*ItemsApi* | [**item_update**](python/docs/apis/tags/ItemsApi.md#item_update) | **patch** /items/{itemId} | Update an item.
+*ItemsCommentsApi* | [**item_comment_create**](python/docs/apis/tags/ItemsCommentsApi.md#item_comment_create) | **post** /items/{itemId}/comments | 
+*ItemsCommentsApi* | [**item_comment_delete**](python/docs/apis/tags/ItemsCommentsApi.md#item_comment_delete) | **delete** /items/{itemId}/comments/{commentId} | 
+*ItemsCommentsApi* | [**item_comment_list**](python/docs/apis/tags/ItemsCommentsApi.md#item_comment_list) | **get** /items/{itemId}/comments | 
+*ItemsCommentsApi* | [**item_comment_update**](python/docs/apis/tags/ItemsCommentsApi.md#item_comment_update) | **patch** /items/{itemId}/comments/{commentId} | Update Item Comment
+*ItemsProjectApi* | [**item_create_with_project**](python/docs/apis/tags/ItemsProjectApi.md#item_create_with_project) | **post** /projects/{projectIdOrAlias}/models/{modelIdOrKey}/items | 
+*ItemsProjectApi* | [**item_filter_with_project**](python/docs/apis/tags/ItemsProjectApi.md#item_filter_with_project) | **get** /projects/{projectIdOrAlias}/models/{modelIdOrKey}/items | Returns a list of items.
+*ModelsApi* | [**model_get**](python/docs/apis/tags/ModelsApi.md#model_get) | **get** /models/{modelId} | Returns a model.
+*ModelsApi* | [**model_get_with_project**](python/docs/apis/tags/ModelsApi.md#model_get_with_project) | **get** /projects/{projectIdOrAlias}/models/{modelIdOrKey} | Returns a model.
 
 ## Documentation For Models
 
